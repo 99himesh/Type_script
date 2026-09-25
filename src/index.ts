@@ -1,6 +1,9 @@
-function greet(person:string):string{
-   return `Hello ${person}`
-}
 
-const userName:string="Chai aur code";
-console.log(greet(userName))
+//inferencing
+let chai="Tea";
+let code=23;
+
+
+//type annotation
+let chaiflavour:String="Masala chai";
+chaiflavour="Soda chai"
